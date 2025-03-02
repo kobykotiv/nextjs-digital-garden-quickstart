@@ -3,12 +3,21 @@
     "target": "esnext",
     "module": "esnext",
     "jsx": "preserve",
-    "lib": ["dom", "es2017"],
+    "lib": [
+      "dom",
+      "es2017"
+    ],
     "baseUrl": ".",
     "paths": {
-      "~/components/*": ["components/*"],
-      "~/lib/*": ["lib/*"],
-      "~/types/*": ["types/*"]
+      "~/components/*": [
+        "components/*"
+      ],
+      "~/lib/*": [
+        "lib/*"
+      ],
+      "~/types/*": [
+        "types/*"
+      ]
     },
     "moduleResolution": "node",
     "strict": true,
@@ -24,8 +33,15 @@
     "removeComments": false,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "incremental": true
   },
-  "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }
